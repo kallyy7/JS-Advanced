@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Simple calculator created with html, css, js and little bootstrap</title>
+    <style>
+        button {
+            display: block;
+            margin: 7px 2px 2px 1px;
+            position: static;
+            font-style: inherit;
+            height: 30pt;
+            width: 30pt
+        }
+        
+        #sum {
+            margin: 2px 8px 1px 1px;
+            height: 23pt;
+            width: 95pt;
+            box-sizing: border-box;
+            border-radius: 8px;
+            background: rgb(190, 206, 219);
+        }
+        
+        #calculator {
+            border: 4px solid rgb(86, 138, 180);
+            border-radius: 8px;
+            background: rgb(86, 138, 180);
+            width: 148pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+
+    <div id="calculator" class="calculator">
+
+        <input type="number" readonly id="sum" />
+        <button class="btn btn-danger" id="clear">C</button>
+
+        <button class="btn btn-primary" id="one">1</button>
+        <button class="btn btn-primary" id="two">2</button>
+        <button class="btn btn-primary" id="three">3</button>
+        <button class="btn btn-primary" id="four">4</button>
+        <button class="btn btn-primary" id="five">5</button>
+        <button class="btn btn-primary" id="six">6</button>
+        <button class="btn btn-primary" id="seven">7</button>
+        <button class="btn btn-primary" id="eighth">8</button>
+        <button class="btn btn-primary" id="nine">9</button>
+        <button class="btn btn-primary" id="zero">0</button>
+
+        <button class="btn btn-warning" id="minus">-</button>
+        <button class="btn btn-warning" id="plus">+</button>
+        <button class="btn btn-warning" id "asterisk">*</button>
+        <button class="btn btn-warning" id="slash">/</button>
+        <button class="btn btn-warning" id="perc">%</button>
+        <button class="btn btn-success" onclick="calc()">=</button>
+
+        <script>
+            function calc() {}
+        </script>
+    </div>
+
+</body>
+
+</html>
