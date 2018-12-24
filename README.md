@@ -10,7 +10,7 @@
 ## :rocket:PROGRAM 
 <table align="center">
 <tr>
-  <th></th><th>Lection</th><th>Lab</th><th>Exercise</th>
+  <th></th><th>:books: Lection</th><th>:computer: Lab</th><th>:pencil:Exercise</th>
 </tr>
 <tr>
   <td>1</td>
