@@ -38,29 +38,92 @@
 
     <div id="calculator" class="calculator">
 
-        <input type="number" readonly id="sum" />
-        <button class="btn btn-danger" id="clear">C</button>
+        <input type="text" readonly id="sum" />
+        <button class="btn btn-danger" onclick="cleаr()">C</button>
 
-        <button class="btn btn-primary" id="one">1</button>
-        <button class="btn btn-primary" id="two">2</button>
-        <button class="btn btn-primary" id="three">3</button>
-        <button class="btn btn-primary" id="four">4</button>
-        <button class="btn btn-primary" id="five">5</button>
-        <button class="btn btn-primary" id="six">6</button>
-        <button class="btn btn-primary" id="seven">7</button>
-        <button class="btn btn-primary" id="eighth">8</button>
-        <button class="btn btn-primary" id="nine">9</button>
-        <button class="btn btn-primary" id="zero">0</button>
+        <button class="btn btn-primary" onclick="one()">1</button>
+        <button class="btn btn-primary" onclick="two()">2</button>
+        <button class="btn btn-primary" onclick="three()">3</button>
+        <button class="btn btn-primary" onclick="four()">4</button>
+        <button class="btn btn-primary" onclick="five()">5</button>
+        <button class="btn btn-primary" onclick="six()">6</button>
+        <button class="btn btn-primary" onclick="seven()">7</button>
+        <button class="btn btn-primary" onclick="eight()">8</button>
+        <button class="btn btn-primary" onclick="nine()">9</button>
+        <button class="btn btn-primary" onclick="zero()">0</button>
 
-        <button class="btn btn-warning" id="minus">-</button>
-        <button class="btn btn-warning" id="plus">+</button>
-        <button class="btn btn-warning" id "asterisk">*</button>
-        <button class="btn btn-warning" id="slash">/</button>
-        <button class="btn btn-warning" id="perc">%</button>
-        <button class="btn btn-success" onclick="calc()">=</button>
-
+        <button class="btn btn-warning" onclick="sub()">-</button>
+        <button class="btn btn-warning" onclick="add()">+</button>
+        <button class="btn btn-warning" onclick="mul()">*</button>
+        <button class="btn btn-warning" onclick="divide()">/</button>
+        <button class="btn btn-warning">.</button>
+        <button class="btn btn-success" onclick="equal()">=</button>
         <script>
-            function calc() {}
+            let result = document.getElementById('sum');
+
+            function cleаr() {
+                result.value = null;
+            }
+
+            function one() {
+                result.value += 1;
+            }
+
+            function two() {
+                result.value += 2;
+            }
+
+            function three() {
+                result.value += 3;
+            }
+
+            function four() {
+                result.value += 4;
+            }
+
+            function five() {
+                result.value += 5;
+            }
+
+            function six() {
+                result.value += 6;
+            }
+
+            function seven() {
+                result.value += 7;
+            }
+
+            function eight() {
+                result.value += 8;
+            }
+
+            function nine() {
+                result.value += 9;
+            }
+
+            function zero() {
+                result.value += 0;
+            }
+
+            function sub() {
+                result.value += '-';
+            }
+
+            function add() {
+                result.value += '+';
+            }
+
+            function mul() {
+                result.value += '*';
+            }
+
+            function divide() {
+                result.value += '/';
+            }
+
+            function equal() {
+                result.value = eval(result.value);
+            }
         </script>
     </div>
 
