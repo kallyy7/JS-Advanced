@@ -15,7 +15,7 @@
 <tr>
   <td>1</td>
   <th>DOM</th>
-  <td><a href="" >:link:</a></td>
+  <td><a href="https://github.com/kallyy7/JS-Advanced/tree/master/DOM" >:link:</a></td>
   <td><a href="" ></a></td>
 </tr>
 <tr>
