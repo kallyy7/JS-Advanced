@@ -6,3 +6,10 @@ function extractText() {
 
     $('#result').text(input)
 }
+
+$(function () {
+    $('a').on('click', (event) => {
+        alert('link forbidden');
+        event.preventDefault();
+    })
+});
