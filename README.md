@@ -3,7 +3,6 @@
 - [x] :bulb: Working with **JQuery**. JQuery **selectors** and **plugins**
 - [x] :bulb: **Unit Testing** - concepts. Using **Mocha** and **Chai** for Unit Testing
 - [x] :bulb: **Inheritance** and **Prototypes**
-- [x] :bulb: **Modules** and **Transpilers**
 - [x] :bulb: Working with **IIFE** and **closures**
 - [x] :bulb: Defining **classes** in JS
 
